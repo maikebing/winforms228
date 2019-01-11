@@ -32,6 +32,7 @@
             this.btnOK = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.btnOK2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOK
@@ -53,10 +54,18 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
+            // btnOK2
+            // 
+            resources.ApplyResources(this.btnOK2, "btnOK2");
+            this.btnOK2.Name = "btnOK2";
+            this.btnOK2.UseVisualStyleBackColor = true;
+            this.btnOK2.Click += new System.EventHandler(this.btnOK2_Click);
+            // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnOK2);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOK);
@@ -72,6 +81,7 @@
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnOK2;
     }
 }
 

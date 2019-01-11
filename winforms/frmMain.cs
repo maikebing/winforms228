@@ -31,5 +31,10 @@ namespace winforms
         {
             MessageBox.Show(winforms.Properties.Resources.JustCancel);
         }
+
+        private void btnOK2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(winforms.Properties.Resources.JustOK2);
+        }
     }
 }

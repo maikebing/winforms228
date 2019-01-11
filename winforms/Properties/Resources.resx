@@ -120,4 +120,7 @@
   <data name="JustOK" xml:space="preserve">
     <value>Just OK</value>
   </data>
+  <data name="JustOK2" xml:space="preserve">
+    <value>Just OK2</value>
+  </data>
 </root>
